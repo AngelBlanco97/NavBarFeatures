@@ -52,10 +52,16 @@ class View3AltaViewController: UIViewController {
         lbl_UserName.text = username
         lbl_Email.text = email
         
+       
         
         crearSuperDiccionario();
         
-        
+        if aux == arrayActualizado.count{
+            btn_Siguiente.isEnabled = false;
+        } else {
+            btn_Siguiente.isEnabled = true;
+        }
+        infoState.text = "User \(aux!) of \(arrayActualizado.count)"
     
     }
     
@@ -100,6 +106,7 @@ class View3AltaViewController: UIViewController {
     @IBAction func verSiguiente(_ sender: Any) {
         aux = aux + 1;
         
+        
         if aux < arrayActualizado.count {
             btn_Siguiente.isEnabled = true;
             btn_Anterior.isEnabled = true;
@@ -108,8 +115,6 @@ class View3AltaViewController: UIViewController {
             poneEmail(numberArray: aux);
             poneUserName(numberArray: aux);
             infoState.text = "User \(aux!) of \(arrayActualizado.count)"
-            
-            
         }
         if aux == arrayActualizado.count {
             btn_Siguiente.isEnabled = false;
