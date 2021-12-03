@@ -67,6 +67,7 @@ class View2CalculadoraViewController: UIViewController {
         }
         
         
+      
         
         
         if quehara.text == "Suma" {
@@ -74,6 +75,7 @@ class View2CalculadoraViewController: UIViewController {
             res = String(result!)
             txt_result.text = res
             cuenta.updateValue(res!, forKey: 4)
+
         } else if quehara.text == "Resta" {
             result = value1! - value2!
             res = String(result!)
@@ -98,6 +100,8 @@ class View2CalculadoraViewController: UIViewController {
     
     func addCuenta() {
         cuentasTotal.updateValue(cuenta, forKey: aux)
+        print(cuentasTotal)
+        print(cuenta)
     }
     
     

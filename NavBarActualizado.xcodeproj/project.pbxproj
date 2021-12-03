@@ -13,6 +13,7 @@
 		BE5E1B6127515D890052BD3B /* View1AltaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5E1B6027515D890052BD3B /* View1AltaViewController.swift */; };
 		BE5E1B6527515DDF0052BD3B /* View2AltaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5E1B6427515DDF0052BD3B /* View2AltaViewController.swift */; };
 		BE5E1B6727515ECB0052BD3B /* View3AltaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5E1B6627515ECB0052BD3B /* View3AltaViewController.swift */; };
+		BEE9D506275A9537006716FC /* CeldaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE9D505275A9537006716FC /* CeldaTableViewCell.swift */; };
 		BEFF9687274E6C64007A521C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFF9686274E6C64007A521C /* AppDelegate.swift */; };
 		BEFF9689274E6C64007A521C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFF9688274E6C64007A521C /* SceneDelegate.swift */; };
 		BEFF968B274E6C64007A521C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFF968A274E6C64007A521C /* ViewController.swift */; };
@@ -48,6 +49,7 @@
 		BE5E1B6027515D890052BD3B /* View1AltaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View1AltaViewController.swift; sourceTree = "<group>"; };
 		BE5E1B6427515DDF0052BD3B /* View2AltaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View2AltaViewController.swift; sourceTree = "<group>"; };
 		BE5E1B6627515ECB0052BD3B /* View3AltaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View3AltaViewController.swift; sourceTree = "<group>"; };
+		BEE9D505275A9537006716FC /* CeldaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaTableViewCell.swift; sourceTree = "<group>"; };
 		BEFF9683274E6C64007A521C /* NavBarActualizado.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavBarActualizado.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEFF9686274E6C64007A521C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEFF9688274E6C64007A521C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 		BEFF9685274E6C64007A521C /* NavBarActualizado */ = {
 			isa = PBXGroup;
 			children = (
+				BEE9D505275A9537006716FC /* CeldaTableViewCell.swift */,
 				BEFF9686274E6C64007A521C /* AppDelegate.swift */,
 				BEFF9688274E6C64007A521C /* SceneDelegate.swift */,
 				BEFF968A274E6C64007A521C /* ViewController.swift */,
@@ -281,6 +284,7 @@
 				BE5E1B6127515D890052BD3B /* View1AltaViewController.swift in Sources */,
 				BEFF9687274E6C64007A521C /* AppDelegate.swift in Sources */,
 				BE5E1B6727515ECB0052BD3B /* View3AltaViewController.swift in Sources */,
+				BEE9D506275A9537006716FC /* CeldaTableViewCell.swift in Sources */,
 				BEFF9689274E6C64007A521C /* SceneDelegate.swift in Sources */,
 				BE3EF03D2757805400958EAC /* View2CalculadoraViewController.swift in Sources */,
 				BE5E1B6527515DDF0052BD3B /* View2AltaViewController.swift in Sources */,

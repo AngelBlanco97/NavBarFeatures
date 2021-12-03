@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Foundation
 
 class View3AltaViewController: UIViewController {
     
@@ -31,12 +32,9 @@ class View3AltaViewController: UIViewController {
     // USER NAME 4
     var aux: Int!=4
 
-    let arrayUser1: Dictionary<Int, String> = [ 1 : "Pedro", 2: "Herrera", 3: "pedro.herrera@gmail.com", 4 : "Pedro123"]
-    
-    let arrayUser2: Dictionary<Int, String> = [1 : "Manuel", 2: "Rodriguez", 3: "manuel.rodriguez@gmail.com", 4: "Manu99"]
-    
-    let arrayUser3: Dictionary<Int, String> = [1 : "Antonio", 2: "Carrera", 3: "antonio.carrera@gmail.com", 4 : "Razer222"]
-    
+    let arrayUser1: Dictionary<Int, String> = [ 1 : "Pedro", 2: "Herrera", 3: "pedro.herrera@gmail.com", 4 : "Pedro123"];
+    let arrayUser2: Dictionary<Int, String> = [1 : "Manuel", 2: "Rodriguez", 3: "manuel.rodriguez@gmail.com", 4: "Manu99"];
+    let arrayUser3: Dictionary<Int, String> = [1 : "Antonio", 2: "Carrera", 3: "antonio.carrera@gmail.com", 4 : "Razer222"];
     
     var arrayActualizado: Dictionary <Int, Dictionary<Int, String>> = [:]
    

@@ -27,6 +27,9 @@ class View1CalculadoraViewController: UIViewController, UIPickerViewDataSource, 
 
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         decision = opciones[row]
+        if decision == nil {
+            decision = "Suma"
+        }
         print(decision!)
     }
     
