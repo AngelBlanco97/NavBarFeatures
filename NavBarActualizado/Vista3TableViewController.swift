@@ -84,8 +84,6 @@ class Vista3TableViewController: UIViewController, UITableViewDelegate, UITableV
     
     
     
-    
-    
 
     var cuentaRealizada: Dictionary<Int, Dictionary<Int,String>> = [:]
     

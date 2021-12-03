@@ -14,6 +14,10 @@ class View2AltaViewController: UIViewController {
     @IBOutlet weak var txt_SubName: UITextField!
     @IBOutlet weak var txt_RealName: UITextField!
     
+    let ud = UserDefaults.standard
+    
+    var arrayUsers = [[String:String]]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "Crear Usuarios"
