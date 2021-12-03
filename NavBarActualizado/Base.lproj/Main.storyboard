@@ -319,8 +319,20 @@
                     <view key="view" contentMode="scaleToFill" id="Pus-Ui-cEl">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No disponible" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vEc-ao-MMY">
+                                <rect key="frame" x="154.5" y="437.5" width="105" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="jFb-k4-4gv"/>
                         <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="vEc-ao-MMY" firstAttribute="centerY" secondItem="Pus-Ui-cEl" secondAttribute="centerY" id="GmR-EJ-w1U"/>
+                            <constraint firstItem="vEc-ao-MMY" firstAttribute="centerX" secondItem="Pus-Ui-cEl" secondAttribute="centerX" id="Jvu-pC-oW1"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="User" image="trash" catalog="system" id="Wh0-QK-5he"/>
                 </viewController>
